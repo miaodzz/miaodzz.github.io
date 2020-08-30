@@ -9,22 +9,20 @@ banner:
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
+
 bg_image:
   enable: true
-  url: https://bnpp-blog.oss-cn-beijing.aliyuncs.com/bhujgfuerue.jpg
-  # dark:
-  # blur: 30px # 设置背景模糊程度
-  opacity: 0.8
-# search:
-#   bg_image: /images/bg/56aad326be153.jpg
-#   dark_bg_image: /images/bg/20200823210335.png
-#   # placeholder:
+  url: https://bnpp-blog.oss-cn-beijing.aliyuncs.com/bhujgfuerue.jpg # recomend image related to your mode
+  dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg
+  # blur: 30px
+  opacity: 1
 
 # 头像
 avatar:
   url: https://bnpp-blog.oss-cn-beijing.aliyuncs.com/14e0a1bd945fc15aba516181c6c986d5.png 
   rounded: true
   opacity: 1
+
 
 menu:
   home:
@@ -67,7 +65,7 @@ albums:
   enable: false
 
 
-
+    
 # Social Links.
 social:
   #- name: RSS
@@ -151,22 +149,6 @@ wordcloud:
   enable: true
 reward:
   enable: false
-  # icon: icon-hand-coin-line
-  # comment: I'm so cute. Please give me money.
-  # # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
-  # methods:
-  #   - name: 支付宝
-  #     path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
-  #     color: "#00A3EE"
-  #     icon: icon-alipay-line
-  #   - name: QQ 支付
-  #     path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
-  #     color: "#12B7F5"
-  #     icon: icon-qq-line
-  #   - name: 微信支付
-  #     path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
-  #     color: "#2DC100"
-  #     icon: icon-wechat-pay-line
 
 
 wordcount:
@@ -185,6 +167,4 @@ utterances:
 
 github_issues:
    enable: false
-#   username: miaodzz
-#   repository: miaodzz.github.io
-#   filters: is:issue
+
